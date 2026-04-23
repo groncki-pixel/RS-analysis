@@ -1,0 +1,151 @@
+market,Original_Rank,Empirical_Rank,Rank_Difference
+Inland Empire - CA,1.0,3.0,2.0
+Salinas - CA,2.0,2.0,0.0
+Modesto - CA,3.0,4.0,1.0
+Fresno - CA,4.0,7.0,3.0
+Austin - TX,5.0,19.0,14.0
+Santa Barbara - CA,6.0,1.0,-5.0
+Seattle - WA,7.0,17.0,10.0
+San Diego - CA,8.0,5.0,-3.0
+San Francisco - CA,9.0,11.0,2.0
+Lexington - KY,10.0,6.0,-4.0
+Stockton - CA,11.0,10.0,-1.0
+San Jose - CA,12.0,13.0,1.0
+Phoenix - AZ,13.0,34.0,21.0
+San Antonio - TX,14.0,20.0,6.0
+Salem - OR,15.0,29.0,14.0
+Raleigh - NC,16.0,23.0,7.0
+Bakersfield - CA,17.0,15.0,-2.0
+Las Vegas - NV,18.0,40.0,22.0
+Winston-Salem - NC,19.0,9.0,-10.0
+Reno - NV,20.0,31.0,11.0
+Springfield - MA,21.0,12.0,-9.0
+Poughkeepsie - NY,22.0,8.0,-14.0
+Palm Beach - FL,23.0,26.0,3.0
+Vallejo-Fairfield - CA,24.0,38.0,14.0
+Brownsville-Harlingen - TX,25.0,33.0,8.0
+Sacramento - CA,27.0,42.0,15.0
+Tampa - FL,27.0,27.0,0.0
+Ventura - CA,27.0,18.0,-9.0
+Mobile - AL,29.0,16.0,-13.0
+Gulfport-Biloxi-Pascagoula - MS,30.0,14.0,-16.0
+Northwest Arkansas - AR,31.0,62.0,31.0
+Tucson - AZ,32.0,48.0,16.0
+Dallas-Fort Worth - TX,33.0,67.0,34.0
+Reading - PA,34.0,24.0,-10.0
+Orange County - CA,35.0,37.0,2.0
+Tallahassee - FL,36.0,22.0,-14.0
+Boise - ID,37.0,73.0,36.0
+El Paso - TX,38.0,68.0,30.0
+Manchester - NH,39.0,25.0,-14.0
+Charleston - SC,40.0,44.0,4.0
+Worcester - MA,41.0,28.0,-13.0
+Jacksonville - FL,42.0,74.0,32.0
+Louisville - KY,43.0,32.0,-11.0
+Fayetteville - NC,44.0,35.0,-9.0
+Greenville - SC,45.0,45.0,0.0
+Chattanooga - TN,46.0,39.0,-7.0
+Minneapolis - MN,47.0,52.0,5.0
+Melbourne - FL,48.0,51.0,3.0
+Providence - RI,49.5,21.0,-28.5
+Port St. Lucie - FL,49.5,50.0,0.5
+Oklahoma City - OK,51.0,66.0,15.0
+Montgomery - AL,52.5,30.0,-22.5
+Colorado Springs - CO,52.5,92.0,39.5
+Little Rock - AR,54.0,41.0,-13.0
+Portland - OR,55.0,84.0,29.0
+Houston - TX,56.0,102.0,46.0
+Augusta - GA,57.0,43.0,-14.0
+Indianapolis - IN,58.0,55.0,-3.0
+Knoxville - TN,59.0,61.0,2.0
+Norfolk - VA,60.0,46.0,-14.0
+Memphis - TN,61.0,36.0,-25.0
+Harrisburg - PA,62.0,53.0,-9.0
+McAllen - TX,63.0,96.0,33.0
+Lehigh Valley - PA,64.0,70.0,6.0
+Santa Rosa - CA,65.0,69.0,4.0
+Columbia - SC,66.0,54.0,-12.0
+Columbus - OH,67.0,78.0,11.0
+Lancaster - PA,68.0,49.0,-19.0
+Scranton - PA,69.0,57.0,-12.0
+Killeen - TX,70.0,109.0,39.0
+Naples - FL,71.0,86.0,15.0
+Lansing - MI,72.0,80.0,8.0
+Jackson - MS,73.0,63.0,-10.0
+Fort Lauderdale - FL,74.0,71.0,-3.0
+Spokane - WA,75.0,91.0,16.0
+Philadelphia - PA,76.0,56.0,-20.0
+Ogden - UT,77.0,95.0,18.0
+Sarasota - FL,78.0,100.0,22.0
+Albany - NY,79.0,64.0,-15.0
+Denver - CO,80.5,126.0,45.5
+Detroit - MI,80.5,60.0,-20.5
+Long Island - NY,82.0,77.0,-5.0
+Greensboro - NC,83.0,59.0,-24.0
+East Bay - CA,84.0,108.0,24.0
+Beaumont - TX,85.0,79.0,-6.0
+Savannah - GA,86.0,99.0,13.0
+Trenton - NJ,87.0,72.0,-15.0
+Rochester - NY,88.0,47.0,-41.0
+Provo - UT,89.0,123.0,34.0
+Baltimore - MD,90.0,65.0,-25.0
+Pensacola - FL,91.0,83.0,-8.0
+Baton Rouge - LA,92.0,97.0,5.0
+Visalia - CA,93.0,111.0,18.0
+Fort Myers - FL,94.0,120.0,26.0
+Anchorage - AK,95.0,85.0,-10.0
+Salisbury - MD,96.0,101.0,5.0
+Durham - NC,97.0,113.0,16.0
+Birmingham - AL,98.0,90.0,-8.0
+Madison - WI,99.0,115.0,16.0
+Grand Rapids - MI,100.0,117.0,17.0
+Portland - ME,101.0,75.0,-26.0
+Cleveland - OH,102.0,58.0,-44.0
+Lakeland - FL,103.0,112.0,9.0
+Atlanta - GA,104.0,134.0,30.0
+Orlando - FL,105.0,131.0,26.0
+Daytona Beach - FL,106.0,107.0,1.0
+Cincinnati - OH,107.0,89.0,-18.0
+Buffalo - NY,108.0,76.0,-32.0
+Chicago - IL,109.0,88.0,-21.0
+Asheville - NC,110.0,119.0,9.0
+Myrtle Beach - SC,111.0,135.0,24.0
+Albuquerque - NM,112.0,104.0,-8.0
+Youngstown - OH,113.0,87.0,-26.0
+Los Angeles - CA,114.0,124.0,10.0
+Stamford - CT,115.0,98.0,-17.0
+York - PA,116.0,105.0,-11.0
+Honolulu - HI,117.0,122.0,5.0
+Springfield - MO,118.5,121.0,2.5
+New York - NY,118.5,130.0,11.5
+Salt Lake City - UT,120.0,142.0,22.0
+Huntsville - AL,121.0,127.0,6.0
+Syracuse - NY,122.0,82.0,-40.0
+Shreveport - LA,123.0,81.0,-42.0
+New Orleans - LA,124.0,128.0,4.0
+Omaha - NE,125.0,140.0,15.0
+Des Moines - IA,126.0,139.0,13.0
+Washington - DC,127.0,132.0,5.0
+Corpus Christi - TX,128.0,129.0,1.0
+Tulsa - OK,129.0,136.0,7.0
+Canton - OH,130.0,93.0,-37.0
+Lafayette - LA,131.0,103.0,-28.0
+Flint - MI,132.0,114.0,-18.0
+Milwaukee - WI,133.0,116.0,-17.0
+New Haven - CT,134.0,94.0,-40.0
+Charlotte - NC,135.0,147.0,12.0
+Fort Wayne - IN,136.0,133.0,-3.0
+Ocala - FL,137.0,137.0,0.0
+Hartford - CT,138.0,118.0,-20.0
+Nashville - TN,139.0,150.0,11.0
+Dayton - OH,140.0,106.0,-34.0
+Akron - OH,141.0,110.0,-31.0
+Toledo - OH,142.0,125.0,-17.0
+Richmond - VA,143.0,145.0,2.0
+Kansas City - MO,144.0,143.0,-1.0
+Boston - MA,145.0,149.0,4.0
+Northern New Jersey - NJ,146.0,141.0,-5.0
+Saint Louis - MO,147.0,138.0,-9.0
+Miami - FL,148.0,146.0,-2.0
+Pittsburgh - PA,149.0,144.0,-5.0
+Wichita - KS,150.0,148.0,-2.0

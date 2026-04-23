@@ -1,0 +1,78 @@
+=== ANALYSIS 1: HISTORICAL RENT GROWTH ATTRIBUTION ===
+
+Regression sample: 150 markets
+
+--- Descriptive Statistics ---
+       rent_growth  supply_growth  employment_growth  pop_growth  sale_price_growth
+count   150.000000     150.000000         150.000000  150.000000         150.000000
+mean      1.415019       1.163702           1.148625    1.070707           1.625769
+std       0.106179       0.156453           0.103375    0.081007           0.248317
+min       1.118869       0.993709           0.943775    0.942107           1.041203
+25%       1.350594       1.062295           1.075650    1.007447           1.452090
+50%       1.410868       1.114446           1.128964    1.049733           1.597737
+75%       1.487252       1.203761           1.219561    1.119049           1.777148
+max       1.708055       2.127563           1.438932    1.369846           2.360037
+
+--- Correlation Matrix ---
+                   rent_growth  supply_growth  employment_growth  pop_growth  sale_price_growth
+rent_growth           1.000000      -0.148425           0.131732   -0.002742           0.552020
+supply_growth        -0.148425       1.000000           0.674959    0.843818           0.440846
+employment_growth     0.131732       0.674959           1.000000    0.851635           0.594189
+pop_growth           -0.002742       0.843818           0.851635    1.000000           0.524353
+sale_price_growth     0.552020       0.440846           0.594189    0.524353           1.000000
+
+High collinearity pairs (|r| > 0.7):
+  supply_growth vs pop_growth: r=0.844
+  employment_growth vs pop_growth: r=0.852
+
+--- VIF ---
+         variable      VIF
+    supply_growth 3.567713
+employment_growth 4.199301
+       pop_growth 7.051980
+sale_price_growth 1.552752
+
+--- OLS Regression (HC3) ---
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            rent_growth   R-squared:                       0.495
+Model:                            OLS   Adj. R-squared:                  0.481
+Method:                 Least Squares   F-statistic:                     21.06
+Date:                Thu, 23 Apr 2026   Prob (F-statistic):           1.05e-13
+Time:                        23:30:10   Log-Likelihood:                 175.35
+No. Observations:                 150   AIC:                            -340.7
+Df Residuals:                     145   BIC:                            -325.6
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 1.2513      0.094     13.300      0.000       1.067       1.436
+supply_growth        -0.3416      0.090     -3.810      0.000      -0.517      -0.166
+employment_growth    -0.0018      0.148     -0.013      0.990      -0.292       0.288
+pop_growth            0.0311      0.227      0.137      0.891      -0.414       0.476
+sale_price_growth     0.3261      0.040      8.252      0.000       0.249       0.404
+==============================================================================
+Omnibus:                        0.704   Durbin-Watson:                   1.571
+Prob(Omnibus):                  0.703   Jarque-Bera (JB):                0.365
+Skew:                          -0.064   Prob(JB):                        0.833
+Kurtosis:                       3.205   Cond. No.                         104.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+--- Standardised Coefficients ---
+                   Std_Coef    t_stat       p_value
+sale_price_growth  0.762580  8.252206  1.554977e-16
+supply_growth     -0.503384 -3.809722  1.391232e-04
+pop_growth         0.023694  0.136784  8.912012e-01
+employment_growth -0.001800 -0.012503  9.900246e-01
+
+Dominant driver: sale_price_growth
+
+--- LassoCV Coefficients ---
+supply_growth       -0.452454
+employment_growth    0.000000
+pop_growth          -0.000000
+sale_price_growth    0.731624
